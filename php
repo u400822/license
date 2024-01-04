@@ -7,11 +7,10 @@ class huy
 	}
 }
 $huy = new huy("abdkdkdk");
-$huy1 = new huy("huy123");
+$huy1 = new huy("hi");
 print_r($huy);
 print_r($huy1);
 echo $huy->data."\n";
 echo $huy1->data."\n";
-while (true) {
-	eval("echo 1;");
-}
+eval("echo 1;");
+fgets(STDIN);
